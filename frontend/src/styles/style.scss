@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'lanakimregular';
+    src: url('fonts/lanakim-regularlanakim-regular-webfont.woff2') format('woff2');
+    src: url('fonts/lanakim-regularlanakim-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$theme-font: 'lanakimregular';
+$Light: #fff;
+$Dark: #000;
+
+
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+  font-family: 'lanakimregular' !important;
+  background-color: $Light;
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  p {
+      font-family: 'lanakimregular';
+      margin: 0;
+  }
+
+  img {
+    max-width: calc(0.416666665 * (100vw - 20px));
+  }
+}
